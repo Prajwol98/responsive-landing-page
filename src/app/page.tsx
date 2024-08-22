@@ -5,11 +5,9 @@ export default function Home() {
         className="bg-red-800
   "
       >
-        hello man this is prajwol mainali
+        hello world
       </h1>
-      <p className="bg-yellow-300">
-        class is ready to serve at any time on this occasation
-      </p>
+      <p className="bg-yellow-300">ok now lets start</p>
     </div>
   );
 }
