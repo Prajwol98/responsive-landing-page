@@ -1,7 +1,11 @@
-import React from "react";
-
 const Navbar = () => {
-  return <div>Navbar</div>;
+  return (
+    <>
+      <p>hello</p>
+      <img src="apple.svg" alt="img" />
+      <img src="android.svg" alt="img" className="bg-red-500" />
+    </>
+  );
 };
 
 export default Navbar;
