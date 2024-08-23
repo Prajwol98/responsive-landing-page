@@ -1,9 +1,14 @@
+// "use client";
 import Image from "next/image";
 import Link from "next/link";
 import { NAV_LINKS } from "../constants";
 import Button from "./Button";
+import { GiHamburgerMenu } from "react-icons/gi";
+// import { useState } from "react";
 
 const Navbar = () => {
+  // const [isOpen, setIsOpen] = useState(false);
+
   return (
     <nav className="container mx-auto px-4 flex justify-between items-center ">
       <Link href="/">
@@ -29,6 +34,8 @@ const Navbar = () => {
         varient="btn_dark_green"
         icon="./user.svg"
       ></Button>
+
+      <GiHamburgerMenu className="md:hidden"></GiHamburgerMenu>
     </nav>
   );
 };
