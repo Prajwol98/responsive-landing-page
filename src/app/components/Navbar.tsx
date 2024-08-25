@@ -1,16 +1,12 @@
-// "use client";
 import Image from "next/image";
 import Link from "next/link";
 import { NAV_LINKS } from "../constants";
 import Button from "./Button";
 import { GiHamburgerMenu } from "react-icons/gi";
-// import { useState } from "react";
 
 const Navbar = () => {
-  // const [isOpen, setIsOpen] = useState(false);
-
   return (
-    <nav className="container mx-auto px-4 flex justify-between items-center ">
+    <nav className="mx-auto p-5 px-4 flex justify-between items-center ">
       <Link href="/">
         <Image src="/hilink-logo.svg" alt="logo" width={74} height={29} />
       </Link>
@@ -35,7 +31,7 @@ const Navbar = () => {
         icon="./user.svg"
       ></Button>
 
-      <GiHamburgerMenu className="md:hidden"></GiHamburgerMenu>
+      <GiHamburgerMenu className="md:hidden h-[35px] w-[35px]"></GiHamburgerMenu>
     </nav>
   );
 };
