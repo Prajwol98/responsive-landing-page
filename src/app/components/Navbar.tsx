@@ -6,7 +6,8 @@ import { GiHamburgerMenu } from "react-icons/gi";
 
 const Navbar = () => {
   return (
-    <nav className="mx-auto p-5 px-4 flex justify-between items-center ">
+    <nav className="max-container padding-container p-5 flex justify-between items-center ">
+      {/* mx-auto p-5 px-4 flex justify-between items-center */}
       <Link href="/">
         <Image src="/hilink-logo.svg" alt="logo" width={74} height={29} />
       </Link>
